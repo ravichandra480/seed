@@ -1,4 +1,4 @@
-#Hottel version 1.0 - Customer site
+#version 1.0
 
 Application Frameworks :
 
@@ -40,7 +40,7 @@ App structure :
 
     SPA (Single Page Application):
 
-    Talk Talk <Application Name> |
+    <Application Name> |
 
                 |Index.html - Base html file - Version (HTML 5)
                 |Scripts   |
