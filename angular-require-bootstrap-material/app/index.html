@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Talk Talk</title>
+        <meta name="description" content="AngularJs application">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="styles/vendors/bootstrap/bootstrap.css">
+        
+        <link rel="stylesheet" href="styles/base/base.css">
+        <link rel="stylesheet" href="styles/vendors/material/angular-material.min.css">
+        <link rel="stylesheet" href="styles/vendors/font-awesome/font-awesome.css">
+    </head>
+    <body ng-controller="mainCtrl">
+
+        <main class="container">
+
+            <header class="header">
+                <div class="logo">
+                    <a href="http://www.talktalk.co.uk/" title="TalkTalk">
+                        <img src="imgs/logo.png" width="162" height="35" alt="logo" class="gradtypeprime" />
+                    </a>
+                </div>
+            </header>
+
+            <main-header menu-navigation="menuConfig"></main-header>
+
+            <main style="min-height: 500px">
+                <div ng-view></div>
+            </main>
+
+            <main-footer></main-footer>
+
+        </main>
+
+        <script data-main="/scripts/ng-require-config" src="/scripts/vendors/require/require.js"></script>
+    </body>
+</html>

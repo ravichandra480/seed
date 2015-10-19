@@ -1,0 +1,158 @@
+/*!
+ * Base v1.0.0
+ */
+.margin-top-20 {
+  margin-top: 20px;
+}
+.margin-left-5 {
+  margin-left: 5px;
+}
+.margin-right-5 {
+  margin-right: 5px;
+}
+.marggin-top-5 {
+  margin-top: 5px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.textalign-center {
+  text-align: center;
+}
+body {
+  background-color: #f0e9dd !important;
+}
+
+body, html {
+    background-color: #f0e9dd !important;
+}
+.header {
+  height: 65px;
+  background-color: #000;
+}
+.header .logo {
+  padding: 14px;
+}
+.header .logo .gradtypeprime {
+  color: #fff;
+  background: #993399;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(left, #993399 0%, #ff007a 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #993399), color-stop(100%, #ff007a));
+  background: -webkit-linear-gradient(left, #993399 0%, #ff007a 100%);
+  background: -o-linear-gradient(left, #993399 0%, #ff007a 100%);
+  background: -ms-linear-gradient(left, #993399 0%, #ff007a 100%);
+  background: linear-gradient(to right, #993399 0%, #ff007a 100%);
+  -pie-background: linear-gradient(left, #993399 0%, #ff007a 100%);
+}
+.sec-header {
+  font-family: 'OmnesMedium', arial, helvetica;
+  font-size: 19px;
+  text-align: center;
+  background: url('/imgs/hdr-top-bg.png') top left repeat-x;
+  border: 0;
+  border-radius: 0;
+  background-color: #3d3d3d;
+}
+.navbar {
+  min-height: 0 !important;
+  margin-bottom: 0 !important;
+}
+.navbar-toggle {
+  border: 0;
+}
+.navbar-toggle:focus {
+  background-color: transparent !important;
+}
+.navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent !important;
+}
+.navbar-nav li {
+  background: url('/imgs/divide-top.png') center right no-repeat;
+  margin-bottom: 0px;
+  color: #aaa;
+}
+.navbar-nav li a {
+  text-decoration: none;
+  color: #aaa;
+  padding: 12px 36px 12px 34px;
+  display: inline-block;
+  zoom: 1;
+}
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+.navbar-nav li .dropdown-menu {
+  background-color: #333;
+}
+.navbar-nav li .dropdown-menu li a:focus {
+  background-color: transparent !important;
+}
+.navbar-nav .active {
+  color: #993399 !important;
+  background-color: transparent !important;
+}
+.transparent-bg {
+  background: transparent !important;
+}
+.nav .open a:focus {
+  background-color: transparent !important;
+  border-color: #337ab7;
+}
+.nav .open a:focus .nav .open a:focus {
+  background-color: transparent !important;
+  border-color: #337ab7;
+}
+.footer .f-top {
+  border-top: solid 1px #7d7d7d;
+  border-bottom: solid 1px #111;
+  margin: 0px;
+  background: #333;
+}
+.footer .f-top img {
+  color: #fff;
+  background: #993399;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(left, #993399 0%, #ff007a 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #993399), color-stop(100%, #ff007a));
+  background: -webkit-linear-gradient(left, #993399 0%, #ff007a 100%);
+  background: -o-linear-gradient(left, #993399 0%, #ff007a 100%);
+  background: -ms-linear-gradient(left, #993399 0%, #ff007a 100%);
+  background: linear-gradient(to right, #993399 0%, #ff007a 100%);
+  -pie-background: linear-gradient(left, #993399 0%, #ff007a 100%);
+  margin: 12px 0;
+}
+.footer .colorprime {
+  color: #993399;
+  font-size: 15px;
+  padding: 12px;
+}
+.footer .content {
+  clear: both;
+  border-top: solid 1px #7d7d7d !important;
+  border-bottom: solid 1px #111;
+  margin: 0px;
+  padding: 20px 10px 20px;
+  background: -moz-linear-gradient(center top, #333234 0%, #000000 100%);
+  background: -webkit-linear-gradient(top, #333234 0%, #000000 100%);
+}
+.footer .content h2 {
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+.footer .content h2 a {
+  color: #aaa9aa !important;
+  font-weight: normal;
+}
+.footer .content ul {
+  padding-left: 0;
+  margin-top: 15px;
+}
+.footer .content ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-bottom: 6px;
+  color: #aaa9aa !important;
+  font-size: 12px;
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Talk Talk App",
+  "version": "1.0.0",
+  "authors": [
+    "RAVI CHANDRA RAVULAPATI <ravichandra480@gmail.com>"
+  ],
+  "description": "Single page web application",
+  "main": "index.html",
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "keywords": [
+    "Angularjs.",
+    "RequireJs",
+    "HTML5",
+    "CSS3"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery":  "latest"
+  },
+  "install" : {
+    "path" : {
+      "css": "styles/vendors/{name}",
+      "js": "scripts/vendors/{name}"
+    },
+    "sources" : {
+     "jquery-ui" : [
+       "../vendors-repo/jquery/js"
+     ]
+    }
+  }
+}
