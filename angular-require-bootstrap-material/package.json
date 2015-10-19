@@ -1,7 +1,7 @@
 {
-  "name": "talk-talk",
+  "name": "angular-require-bootstrap-material",
   "version": "1.0.0",
-  "description": "Talk Talk Web Application",
+  "description": "angular-require-bootstrap-material seed Application",
   "main": "index.html",
   "authors": [ ],
   "private": true,
@@ -29,6 +29,6 @@
     "TBT",
     "SCSS"
   ],
-  "author": "TalkTalk Dev Team",
+  "author": "Ravi Chandra Ravulapati",
   "license": "ISC"
 }
